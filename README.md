@@ -7,3 +7,5 @@
 # Some Notes:
 * python爬虫，requests的response显示乱码，设置header，修改直接encoding都无效，最后通过response.encoding=response.apparent_encoding解决问题！  
 * F12——Console——输入document.charset查看网页所用的编码格式  
+
+# 一个爬取目标地址邮编的脚本
